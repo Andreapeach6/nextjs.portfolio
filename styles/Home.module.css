@@ -91,26 +91,39 @@
 
 /* Responsive Design */
 @media (max-width: 768px) {
+  /* Hero Section */
   .hero {
     padding: 3rem 1rem;
   }
 
+  /* Profile Image */
   .image {
     width: 180px;
     height: 270px;
   }
 
+  /* Headline */
   .hero h1 {
     font-size: 2.8rem;
   }
 
+  /* Description */
   .hero p {
     font-size: 1.1rem;
+    max-width: 100%; /* Ensure text fits within small screens */
   }
 
+  /* Call to Action Button */
   .ctaButton {
     padding: 1rem 2rem;
     font-size: 1.1rem;
+    width: 100%; /* Button takes full width on smaller screens */
+    margin-top: 1rem; /* Adds space between button and text */
+  }
+
+  /* Main Section Adjustments */
+  .main {
+    padding: 1rem; /* Reduced padding for better screen usage */
   }
 }
 
